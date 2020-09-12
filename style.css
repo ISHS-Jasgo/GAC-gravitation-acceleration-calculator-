@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 70%;
+}
+
+.eleInfo {
+    position: absolute;
+    font-family: sans-serif;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    width: 200px;
+    border: 2px solid black;
+    font-size: 20px;
+    color: #222;
+    background-color: #fff;
+}
+
+#result {
+    margin-left: 970px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#input {
+    margin-left: 910px;
+    cursor: default;
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#ga {
+    margin-left: 970px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#fall {
+    margin-left: 970px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#input2 {
+    margin-left: 910px;
+    cursor: default;
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#input3 {
+    margin-left: 910px;
+    cursor: default;
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#submit {
+    height: 70px;
+    margin-left: 1020px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#input4 {
+    margin-left: 910px;
+    cursor: default;
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#st {
+    all: unset;
+    width: 300px;
+    height: 100px;
+    border: 1px black solid;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 200px;
+    transition: all ease 0.5s;
+}
+
+#st:hover {
+    background-color: aquamarine;
+}
+
+.page {
+    background-color: black;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
